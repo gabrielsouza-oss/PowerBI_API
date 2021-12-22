@@ -1,0 +1,2 @@
+https://powerbi.microsoft.com/pt-br/blog/working-with-powershell-in-power-bi/
+https://docs.microsoft.com/en-us/powershell/power-bi/overview?view=powerbi-ps
