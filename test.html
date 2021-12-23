@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link href="https://bootswatch.com/5/superhero/bootstrap.css" rel="stylesheet" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Relatório de Atualização do BI</title>
+	
+
+<script>
+var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+
+var request = new XMLHttpRequest();
+request.open('GET', requestURL,true);
+request.responseType = 'json';
+request.send(null);
+
+request.onload = function() {
+  const myObj = request.response;
+  let text = "<table class='table table-striped'>"
+  for (let x in myObj) {
+    text += "<tr><td>" + myObj[x] + "</td></tr>";
+  }
+  text += "</table>"    
+  document.getElementById("demo").innerHTML = text;
+} 
+
+</script>
+ </head>
+ <body>
+ <div id="demo" class='mt-5 w-75 mx-auto text-center'>
+ </div>
+ </body>
+</html>
