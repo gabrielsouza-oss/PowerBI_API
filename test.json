@@ -1,0 +1,171 @@
+{
+  "@odata.context": "http://wabi-south-central-us-redirect.analysis.windows.net/v1.0/myorg/$metadata#refreshes",
+  "value": [
+    {
+      "requestId": "976be2b7-e1a3-9c99-3012-5069cacc5e35",
+      "id": 1438294960,
+      "refreshType": "OnDemand",
+      "startTime": "2021-12-22T01:34:54.11Z",
+      "endTime": "2021-12-22T01:34:54.53Z",
+      "serviceExceptionJson": "{\"errorCode\":\"{\\\"error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"pbi.error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"parameters\\\":{},\\\"details\\\":[{\\\"code\\\":\\\"Message\\\",\\\"detail\\\":{\\\"type\\\":1,\\\"value\\\":\\\"The column 'newCases' of the table wasn't found.\\\"}}],\\\"exceptionCulprit\\\":1}}} Table: cases-brazil-states.\"}",
+      "status": "Failed"
+    },
+    {
+      "requestId": "bf44f9f3-f147-4899-9269-b342ed7f04c9",
+      "id": 803219829,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-14T03:01:24.16Z",
+      "endTime": "2020-04-14T03:10:45.82Z",
+      "serviceExceptionJson": "{\"errorCode\":\"{\\\"error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"pbi.error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"parameters\\\":{},\\\"details\\\":[{\\\"code\\\":\\\"Message\\\",\\\"detail\\\":{\\\"type\\\":1,\\\"value\\\":\\\"The column 'totalCases' of the table wasn't found.\\\"}}],\\\"exceptionCulprit\\\":1}}} Table: cases-brazil-states.\"}",
+      "status": "Failed"
+    },
+    {
+      "requestId": "81c24347-56b0-40cc-8405-a1c7a4639e8d",
+      "id": 802230895,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-13T03:02:12.88Z",
+      "endTime": "2020-04-13T03:12:52.21Z",
+      "serviceExceptionJson": "{\"errorCode\":\"{\\\"error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"pbi.error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"parameters\\\":{},\\\"details\\\":[{\\\"code\\\":\\\"Message\\\",\\\"detail\\\":{\\\"type\\\":1,\\\"value\\\":\\\"The column 'totalCases' of the table wasn't found.\\\"}}],\\\"exceptionCulprit\\\":1}}} Table: cases-brazil-states.\"}",
+      "status": "Failed"
+    },
+    {
+      "requestId": "fe1570d1-8669-45fe-b696-1df2e7362d8b",
+      "id": 801253485,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-12T03:01:25.723Z",
+      "endTime": "2020-04-12T03:13:35.247Z",
+      "serviceExceptionJson": "{\"errorCode\":\"{\\\"error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"pbi.error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"parameters\\\":{},\\\"details\\\":[{\\\"code\\\":\\\"Message\\\",\\\"detail\\\":{\\\"type\\\":1,\\\"value\\\":\\\"The column 'totalCases' of the table wasn't found.\\\"}}],\\\"exceptionCulprit\\\":1}}} Table: cases-brazil-states.\"}",
+      "status": "Failed"
+    },
+    {
+      "requestId": "3b7f64db-69ae-445e-8a3e-833474812ea0",
+      "id": 800271782,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-11T03:01:15.91Z",
+      "endTime": "2020-04-11T03:11:48.51Z",
+      "serviceExceptionJson": "{\"errorCode\":\"{\\\"error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"pbi.error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"parameters\\\":{},\\\"details\\\":[{\\\"code\\\":\\\"Message\\\",\\\"detail\\\":{\\\"type\\\":1,\\\"value\\\":\\\"The column 'totalCases' of the table wasn't found.\\\"}}],\\\"exceptionCulprit\\\":1}}} Table: cases-brazil-states.\"}",
+      "status": "Failed"
+    },
+    {
+      "requestId": "92a962b2-74c2-4b6b-999f-b4cfa66718ab",
+      "id": 799266112,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-10T03:02:10.273Z",
+      "endTime": "2020-04-10T03:17:09.777Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "686c23b5-a0e4-4c1c-8549-0a1c085a2434",
+      "id": 798253568,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-09T03:02:20.997Z",
+      "endTime": "2020-04-09T03:14:35.3Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "adb327c9-bf07-47a2-91be-114c99cd6936",
+      "id": 797240879,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-08T03:02:20.033Z",
+      "endTime": "2020-04-08T03:14:47.06Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "51c40254-43ac-422a-a822-f6a1888e7a11",
+      "id": 796229973,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-07T03:01:19.33Z",
+      "endTime": "2020-04-07T03:13:32.437Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "12955ffb-b712-40cc-83e6-316849422057",
+      "id": 795219106,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-06T03:01:09.907Z",
+      "endTime": "2020-04-06T03:15:12.663Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "5d865bf7-f20f-4639-81a1-0a17f3f6b3e6",
+      "id": 794219881,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-05T03:02:11.247Z",
+      "endTime": "2020-04-05T03:17:16.243Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "035fd3bc-9bfc-42e1-8d8b-227ab0e6cc95",
+      "id": 793215871,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-04T03:01:27.867Z",
+      "endTime": "2020-04-04T03:14:22.91Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "7b088a86-a25d-46b5-bde6-908ad64a8527",
+      "id": 792190662,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-03T03:02:17.54Z",
+      "endTime": "2020-04-03T03:14:28.86Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "b7c7862c-8364-441a-b9c9-4a402ed309a7",
+      "id": 791175355,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-02T03:02:18.2Z",
+      "endTime": "2020-04-02T03:15:14.33Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "f104a614-27ba-4b46-99ff-16079bd1205d",
+      "id": 790165828,
+      "refreshType": "Scheduled",
+      "startTime": "2020-04-01T03:02:18.353Z",
+      "endTime": "2020-04-01T03:14:26.407Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "098aa03e-99f5-4c01-8ef8-6b7a6c3afc64",
+      "id": 789159877,
+      "refreshType": "Scheduled",
+      "startTime": "2020-03-31T03:02:09.03Z",
+      "endTime": "2020-03-31T03:15:50.503Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "3dbcc775-79e3-4530-a57f-a308ee5ab069",
+      "id": 788156582,
+      "refreshType": "Scheduled",
+      "startTime": "2020-03-30T03:01:19.5Z",
+      "endTime": "2020-03-30T03:13:08.073Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "9cd17dd4-087e-4d23-8af1-204485772496",
+      "id": 787164238,
+      "refreshType": "Scheduled",
+      "startTime": "2020-03-29T03:01:32.56Z",
+      "endTime": "2020-03-29T03:12:45.53Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "aefdc3a8-9010-42ff-8716-aa3cec3c0f80",
+      "id": 786806165,
+      "refreshType": "OnDemand",
+      "startTime": "2020-03-28T18:18:04.457Z",
+      "endTime": "2020-03-28T18:19:04.673Z",
+      "status": "Completed"
+    },
+    {
+      "requestId": "7a1448ce-2cd1-45f5-8e13-c54c0c999777",
+      "id": 786169605,
+      "refreshType": "Scheduled",
+      "startTime": "2020-03-28T03:02:20.25Z",
+      "endTime": "2020-03-28T03:14:20.29Z",
+      "serviceExceptionJson": "{\"errorCode\":\"{\\\"error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"pbi.error\\\":{\\\"code\\\":\\\"ModelRefresh_ShortMessage_ProcessingError\\\",\\\"parameters\\\":{},\\\"details\\\":[{\\\"code\\\":\\\"Message\\\",\\\"detail\\\":{\\\"type\\\":1,\\\"value\\\":\\\"The column 'totalCases' of the table wasn't found.\\\"}}],\\\"exceptionCulprit\\\":1}}} Table: cases-brazil-states.\"}",
+      "status": "Failed"
+    }
+  ]
+}
